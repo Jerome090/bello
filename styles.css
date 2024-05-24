@@ -1,0 +1,221 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Content styles */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+nav ul li:nth-child(1) {
+    background-image: url('home.jpg');
+}
+nav ul li:nth-child(2) {
+    background-image: url('about.jpg');
+}
+nav ul li:nth-child(3) {
+    background-image: url('education.jpg');
+}
+nav ul li:nth-child(4) {
+    background-image: url('skills.jpg');
+}
+nav ul li:nth-child(5) {
+    background-image: url('hobbies.jpg');
+}
+nav ul li:nth-child(6) {
+    background-image: url('contact.jpg');
+}
+/* Home section background */
+#home {
+    background-image: url('home.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for better contrast */
+    padding: 50px 20px; /* Adjust padding as needed */
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* This creates a circle */
+    overflow: hidden; /* This ensures the image doesn't overflow the circle */
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image fills the circle without distortion */
+  }
+  .content {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #333;
+}
+
+.content p {
+    color: #666;
+    font-size: 18px;
+    margin-top: 10px;
+}
+  
+
+/* About section background */
+#about {
+    background-image: url('about.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Text color for better contrast */
+    padding: 50px 20px; /* Adjust padding as needed */
+}
+
+/* Education section background */
+#education {
+    background-image: url('education.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for better contrast */
+    padding: 50px 20px; /* Adjust padding as needed */
+}
+#education {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.education-item {
+    margin-bottom: 10px;
+}
+
+.education-item h3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.education-item p {
+    margin: 0;
+    color: #666;
+}
+
+#skills {
+    background-image: url('skills.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for better contrast */
+    padding: 50px 20px; /* Adjust padding as needed */
+}
+#hobbies {
+    background-image: url('hobbies.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for better contrast */
+    padding: 50px 20px; /* Adjust padding as needed */
+}
+#contact {
+    background-image: url('contact.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for better contrast */
+    padding: 50px 20px; /* Adjust padding as needed */
+}
+
+

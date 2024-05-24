@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerome Bello Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#hobbies">HOBBIES</a></li>
+            <li><a href="#photo">PHOTO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <div class="circle">
+                <img src="homepic.jpg">
+              </div>
+            <div class="content">
+                <h2>Hi, I'm Jerome Bello</h2>
+                <p>Welcome to my personal portfolio website!</p>
+            </div>
+        </section>
+        
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am Jerome Bello, a passionate artist.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Northwest Samar State University</h3>
+                <p>College</p>
+            </div>
+            <div class="education-item">
+                <h3>Mag Ubay National High School</h3>
+                <p>High School</p>
+            </div>
+            <div class="education-item">
+                <h3>Cagbayang Elementary School</h3>
+                <p>Elementary</p>
+            </div>
+        </section>
+        
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>My skills is dancing, drawing</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>In my free time, I enjoy listening to music,I like cleaning our house, watching funny videos</p>
+        </section>
+
+        <section id="photo">
+            <h2>Photo Gallery</h2>
+            <img src="homepic.jpg">
+            <img src="photo1.jpg">
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="your-server-endpoint" method="POST" enctype="multipart/form-data">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="contact-no">Contact Number:</label>
+                <input type="tel" id="contact-no" name="contact-no" required><br><br>
+                
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file"><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <!-- Footer content goes here -->
+        <p>&copy; 2024 Jerome Bello. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
